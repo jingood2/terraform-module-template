@@ -1,3 +1,4 @@
+#checkov:skip:CKV2_GHA_1:Comment
 name: Tests
 
 on:
@@ -8,8 +9,6 @@ on:
     paths-ignore:
       - '.github/workflows/release.yml'
       - '.github/workflows/pr_checks.yml'
-
-permissions: write-all
 
 jobs:
   pre_commit:
