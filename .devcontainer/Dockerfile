@@ -38,9 +38,9 @@ ENV HOME /home/$USERNAME
 WORKDIR $HOME
 
 # vscode go extension dependencies
-RUN go install golang.org/x/tools/gopls@latest \
-    && go install github.com/go-delve/delve/cmd/dlv@latest \
-    && go install honnef.co/go/tools/cmd/staticcheck@latest
+#RUN go install golang.org/x/tools/gopls@latest \
+#    && go install github.com/go-delve/delve/cmd/dlv@latest \
+#    && go install honnef.co/go/tools/cmd/staticcheck@latest
 
 # Install pre-commit go dependencies
 RUN go install github.com/terraform-docs/terraform-docs@v0.16.0 \
