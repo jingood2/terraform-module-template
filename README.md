@@ -127,7 +127,7 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_name"></a> [name](#input\_name) | The name of a person or thing to say hello to. | `string` | `"World"` | no |
+| <a name="input_name"></a> [name](#input\_name) | The name of a person or thing to say hello to. | `string` | `"World!"` | no |
 
 ## Outputs
 
