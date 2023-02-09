@@ -10,7 +10,7 @@ on:
       - '.github/workflows/release.yml'
       - '.github/workflows/pr_checks.yml'
 
-permissions: read-all
+permissions: write-all
 
 jobs:
   pre_commit:
