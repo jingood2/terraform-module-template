@@ -7,7 +7,7 @@ This module makes text more exciting!
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_text"></a> [text](#input\_text) | The word or sentence to make exciting! | `string` | `"default test"` | no |
+| <a name="input_text"></a> [text](#input\_text) | The word or sentence to make exciting! | `string` | n/a | yes |
 
 ## Outputs
 
