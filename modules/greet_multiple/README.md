@@ -16,7 +16,7 @@ A real-world use case for Higher-order modules would be if you wanted your modul
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_names"></a> [names](#input\_names) | A list of people/things to greet. | `list(string)` | n/a | yes |
+| <a name="input_names"></a> [names](#input\_names) | A list of people/things to greet. | `list(string)` | <pre>[<br>  "james"<br>]</pre> | no |
 
 ## Outputs
 

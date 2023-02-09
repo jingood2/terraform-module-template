@@ -7,7 +7,7 @@ This module returns a greeting.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_name"></a> [name](#input\_name) | The person/item you want to greet. | `string` | n/a | yes |
+| <a name="input_name"></a> [name](#input\_name) | The person/item you want to greet. | `string` | `"default name"` | no |
 
 ## Outputs
 
